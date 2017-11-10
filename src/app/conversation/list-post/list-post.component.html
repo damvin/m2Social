@@ -1,0 +1,7 @@
+<p>
+<li *ngFor="let listPost of listPost, let i= index">
+     <!--je ne trouve pas la bonne formule pour appeler le composant post...
+    <app-post [post]="listPost" *ngFor="let post of listPost"></app-post>-->
+    {{listPost.content}}
+</li>
+</p>
